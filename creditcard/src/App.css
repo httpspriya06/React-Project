@@ -35,7 +35,7 @@
   flex-direction: column;
   gap: 22px;
   width: 80%;
-  margin: 5rem auto auto 18rem;
+  margin: 4rem auto auto 18rem;
 }
 
 #cxname {
@@ -64,10 +64,14 @@ button {
   color: white;
   padding: 1%;
   width: 62%;
-  height: 8%;
+  height: 10%;
   border-radius: 8px;
   margin-top: 2rem;
 }
+button:hover {
+  color: grey;
+}
+
 input::placeholder {
   font-weight: 400;
 }
@@ -76,8 +80,91 @@ input::placeholder {
   font-size: 12px;
   color: red;
 }
-/* #errr {
-  font-size: 12px;
-  color: red;
-  margin-left: 16rem;
-} */
+
+.card {
+  height: 200px;
+  width: 350px;
+  background-image: linear-gradient(rgb(153, 4, 252), rgba(18, 55, 222, 0.8));
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  box-shadow: 1px 1px 2px #707070;
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  z-index: 2;
+}
+.circle {
+  width: 12%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 1px 1px 2px #707070;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+.outlinecircle {
+  width: 6%;
+  height: 8%;
+  border-radius: 50%;
+  border: white 1px solid;
+  box-shadow: 1px 1px 2px #707070;
+  position: absolute;
+  top: 2.4rem;
+  left: 6rem;
+}
+
+#number {
+  font-size: 25px;
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+}
+
+#jane {
+  font-size: 10px;
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+}
+
+#exp {
+  font-size: 10px;
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+
+.cardback {
+  height: 200px;
+  width: 350px;
+  background-color: rgb(212, 204, 204);
+  border-radius: 10px;
+  color: black;
+  margin: 20px;
+  font-size: 10px;
+  box-shadow: 1px 1px 2px #707070;
+  position: absolute;
+  top: 20rem;
+  left: 12rem;
+  z-index: 2;
+  position: fixed;
+}
+.rectangle {
+  background-color: rgba(0, 0, 0, 0.828);
+  height: 20%;
+  width: 100%;
+  margin-top: 2rem;
+}
+.cvv {
+  background-color: grey;
+  height: 20%;
+  width: 80%;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: end;
+  margin: 1rem auto auto 2rem;
+}
